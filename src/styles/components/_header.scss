@@ -1,21 +1,23 @@
 .header {
     display: flex;
     padding: 1rem;
-    height: 50vh;
-    width: 100vw;
+    height: 40vh;
     background-color:#151D33;
     color: white;
-
-    .header-avatar{
-        border: 1px solid rgb(160, 159, 159);
-        border-radius:90px;
-        height: 70%;
-        margin: 1rem;
-        
-    
-    }
-    h1{
-        font-size: 4rem;
-      }
+    align-items: center;
 
 }
+.header-avatar{
+    margin: 1rem;
+    opacity: 90%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .8);
+    border-radius:50%;
+    width: 10vw;
+    height: 60%;
+    
+}
+.header-title{
+    padding: 1rem;
+
+}
+

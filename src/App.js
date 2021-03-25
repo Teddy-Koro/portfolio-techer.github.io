@@ -10,7 +10,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/a-propos" exact component={About} />
-        <Route component={NotFound} />
+        <Route path="/error404" component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
