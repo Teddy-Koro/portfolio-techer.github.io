@@ -5,25 +5,29 @@
 .projects-grid{
     display: flex;
     
-    h3{
-       margin: 1rem;
+    h2{
+        font-size:2rem;
+        font-weight: bold;
+        text-decoration: underline #0e0d0d;
     }
-    
 }
 .project1 {
     width: 400px;
     height: 300px;
-    margin: 2rem auto;
+    margin: auto;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
+    background-image: url(/assets/cv-project.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 .project2 {
     width: 400px;
     height: 300px;
     margin: 2rem auto;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
-
 }
 .project3 {
     width: 400px;
